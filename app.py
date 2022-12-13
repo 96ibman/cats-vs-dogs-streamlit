@@ -60,7 +60,7 @@ def upload_predict(img, model):
 
 
 if __name__ == '__main__':
-    choice = st.sidebar.selectbox("Model/ Author", ["Try the model", "Who am I?"])
+    choice = st.sidebar.selectbox("Model/ Author", ["Try the model", "About"])
     if choice == "Try the model":
         welcome()
     else:
@@ -68,10 +68,9 @@ if __name__ == '__main__':
         st.write("### Ibrahim M. Nasser")
         st.write("Freelance Machine Learning Engineer")
         st.write("[Website](https://ibrahim-nasser.com/)", 
-                 "[Blog](https://blog.ibrahim-nasser.com/)", 
                  "[LinkedIn](https://www.linkedin.com/in/ibrahimnasser96/)",
                  "[GitHub](https://github.com/96ibman)",
                  "[Youtube](https://www.youtube.com/channel/UC7N-dy3UbSBHnwwv-vulBAA)",
                  "[Twitter](https://twitter.com/mleng_ibrahim)"
                  )
-        st.image("my_picture.jpeg", width=350)
+        st.image("ibrahim-nasser.jpg", width=350)
