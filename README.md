@@ -19,6 +19,7 @@ The dataset contains Two folders:
 - training_set
     - Cats
     - Dogs
+
 I combined all of them in cats and dogs folders then I used `splitfolders` module to create training, validation, and testing folders.
 ```
 pip install split-folders
