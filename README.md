@@ -5,7 +5,7 @@
 - Data Augmentation
 - Bulilding a CNN using MobileNetV2 Pretrained Model Architecture
 - Create a Web App that serves the model using Python `streamlit`
-- App Deployment on `Heroku` PAAS
+- App Deployment on `Streamlit` Cloud
 
 
 ## Dataset
@@ -157,8 +157,7 @@ Test accuracy: 0.9791044592857361
 ```
 
 ## APP Deployed
-https://cats-vs-dogs-mobilenet.herokuapp.com/
-
+https://96ibman-cats-vs-dogs-streamlit-app-uzievd.streamlit.app/
 
 ## Authors
 
@@ -167,7 +166,6 @@ https://cats-vs-dogs-mobilenet.herokuapp.com/
 
 ## Connect With Me!
 - [Website](https://ibrahim-nasser.com/)
-- [Blog](https://blog.ibrahim-nasser.com/)
 - [LinkedIn](https://www.linkedin.com/in/ibrahimnasser96/)
 - [Twitter](https://twitter.com/mleng_ibrahimy)
 - [YT Channel](https://www.youtube.com/channel/UC7N-dy3UbSBHnwwv-vulBAA)
