@@ -62,15 +62,15 @@ def upload_predict(img, model):
 if __name__ == '__main__':
     choice = st.sidebar.selectbox("Model/ Author", ["Try the model", "About"])
     if choice == "Try the model":
-        welcome()
+        try:
+            welcome()
+        except:
+            st.error("Something Went Wrong")
+
     else:
-        st.write("## Author Info.")
-        st.write("### Ibrahim M. Nasser")
-        st.write("Freelance Machine Learning Engineer")
-        st.write("[Website](https://ibrahim-nasser.com/)", 
+        st.write("### Ibrahim Nasser")
+        st.write("[Website](https://96ibman.github.io/ibrahim-nasser/)", 
                  "[LinkedIn](https://www.linkedin.com/in/ibrahimnasser96/)",
                  "[GitHub](https://github.com/96ibman)",
-                 "[Youtube](https://www.youtube.com/channel/UC7N-dy3UbSBHnwwv-vulBAA)",
                  "[Twitter](https://twitter.com/mleng_ibrahim)"
                  )
-        st.image("ibrahim-nasser.jpg", width=350)
